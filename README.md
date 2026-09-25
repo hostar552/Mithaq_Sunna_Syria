@@ -1051,7 +1051,7 @@
         overflow: hidden;
     ">
         <!-- استبدل الرابط في الأسفل برابط التضمين الخاص بك من جوجل فورمس مع الاحتفاظ بالـ src والدوال الأخرى -->
-        <iframe src="https://docs.google.com/forms/d/1ufNgUxx5WXqBMFZ_NWQPmSWTBCZQQ3tYZ8nTk1xDF3Y/edit" 
+        <iframe src="<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScLUdYF5EvbkbLv4x_k904jijHV8boK7R171ofluRuRiPqC1g/viewform?embedded=true" width="640" height="1021" frameborder="0" marginheight="0" marginwidth="0">جارٍ التحميل…</iframe>" 
                 width="100%" 
                 height="800" 
                 frameborder="0" 
