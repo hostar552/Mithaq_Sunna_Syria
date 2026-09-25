@@ -1031,34 +1031,34 @@
       </div>
     </div>
 
-  </div> 
-  <!-- بداية قسم زر التوقيع المتوافق والأنيق -->
+  </div> <!-- بداية قسم زر التوقيع الأخضر والمصحح بالكامل -->
 <div style="
     text-align: center !important; 
     margin: 60px auto !important; 
-    padding: 20px !important; 
+    padding: 20px 20px 80px 20px !important; /* أضفنا هامشاً سفلياً كبيراً هنا لإجبار الموقع على إظهار الزر كاملاً */
     font-family: 'Cairo', 'Segoe UI', Tahoma, sans-serif !important;
     clear: both !important;
+    display: block !important;
 ">
     <h2 style="color: #333333; margin-bottom: 12px; font-size: 24px;">الانضمام لقائمة الموقعين</h2>
     <p style="color: #666666; margin-bottom: 30px; font-size: 16px;">يرجى الضغط على الزر أدناه لتسجيل اسمك الكامل ودعم الميثاق</p>
     
-    <!-- استبدل الرابط أدناه برابط استمارة جوجل المباشر (وليس كود الـ iframe) -->
-    <a href="https://forms.gle/K5MdFsewzRQZJ2NQ9" target="_blank" style="
+    <!-- تأكد من وضع رابط استمارتك المباشر مكان العبارة أدناه -->
+    <a href="https://forms.gle/NSKQpzaz1VCqmJWj8" target="_blank" style="
         display: inline-block !important;
         padding: 16px 40px !important;
         font-size: 18px !important;
         font-weight: bold !important;
         color: #ffffff !important;
-        background-color: #1a5f7a !important; /* لون أخضر غامق وقور يناسب الوثائق والمواثيق */
+        background-color: #1b4d3e !important; /* لون أخضر غامق ملكي ووقور للمواثيق */
         border-radius: 30px !important;
         text-decoration: none !important;
-        box-shadow: 0 4px 15px rgba(26, 95, 122, 0.3) !important;
+        box-shadow: 0 4px 15px rgba(27, 77, 62, 0.3) !important;
         transition: all 0.3s ease !important;
-    " onmouseover="this.style.backgroundColor='#124559'; this.style.transform='translateY(-3px)';" onmouseout="this.style.backgroundColor='#1a5f7a'; this.style.transform='translateY(0)';">
+    " onmouseover="this.style.backgroundColor='#12362b'; this.style.transform='translateY(-3px)';" onmouseout="this.style.backgroundColor='#1b4d3e'; this.style.transform='translateY(0)';">
         اضغط للانضمام لقائمة الموقعين
     </a>
 </div>
-<!-- نهاية قسم زر التوقيع المتوافق والأنيق -->
+<!-- نهاية قسم زر التوقيع -->
 </body>
 </html>
