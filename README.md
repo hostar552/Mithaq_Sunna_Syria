@@ -1031,37 +1031,34 @@
       </div>
     </div>
 
-  </div>
-<!-- بداية قسم التوقيع المطور والقوي -->
+  </div> 
+  <!-- بداية قسم زر التوقيع المتوافق والأنيق -->
 <div style="
-    display: flex !important; 
-    flex-direction: column !important; 
-    align-items: center !important; 
-    justify-content: center !important; 
-    width: 100% !important; 
-    margin: 50px auto !important; 
-    padding: 10px !important; 
-    box-sizing: border-box !important;
+    text-align: center !important; 
+    margin: 60px auto !important; 
+    padding: 20px !important; 
+    font-family: 'Cairo', 'Segoe UI', Tahoma, sans-serif !important;
+    clear: both !important;
 ">
-    <div style="
-        width: 100% !important; 
-        max-width: 760px !important; 
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important; 
-        border-radius: 10px !important; 
-        overflow: hidden !important;
-    ">
-        <!-- استبدل الرابط أدناه برابط التضمين الخاص بك من جوجل فورمس -->
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScLUdYF5EvbkbLv4x_k904jijHV8boK7R171ofluRuRiPqC1g/viewform?embedded=true" width="640" height="1021" frameborder="0" marginheight="0" marginwidth="0">جارٍ التحميل…</iframe> 
-                width="100%" 
-                height="1400" 
-                frameborder="0" 
-                marginheight="0" 
-                marginwidth="0" 
-                style="display: block !important; border: none !important; width: 100% !important; height: 1400px !important;">
-                جاري التحميل…
-        </iframe>
-    </div>
+    <h2 style="color: #333333; margin-bottom: 12px; font-size: 24px;">الانضمام لقائمة الموقعين</h2>
+    <p style="color: #666666; margin-bottom: 30px; font-size: 16px;">يرجى الضغط على الزر أدناه لتسجيل اسمك الكامل ودعم الميثاق</p>
+    
+    <!-- استبدل الرابط أدناه برابط استمارة جوجل المباشر (وليس كود الـ iframe) -->
+    <a href="https://forms.gle/K5MdFsewzRQZJ2NQ9" target="_blank" style="
+        display: inline-block !important;
+        padding: 16px 40px !important;
+        font-size: 18px !important;
+        font-weight: bold !important;
+        color: #ffffff !important;
+        background-color: #1a5f7a !important; /* لون أخضر غامق وقور يناسب الوثائق والمواثيق */
+        border-radius: 30px !important;
+        text-decoration: none !important;
+        box-shadow: 0 4px 15px rgba(26, 95, 122, 0.3) !important;
+        transition: all 0.3s ease !important;
+    " onmouseover="this.style.backgroundColor='#124559'; this.style.transform='translateY(-3px)';" onmouseout="this.style.backgroundColor='#1a5f7a'; this.style.transform='translateY(0)';">
+        اضغط للانضمام لقائمة الموقعين
+    </a>
 </div>
-<!-- نهاية قسم التوقيع المطور والقوي -->
+<!-- نهاية قسم زر التوقيع المتوافق والأنيق -->
 </body>
 </html>
