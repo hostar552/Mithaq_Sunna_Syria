@@ -1031,8 +1031,7 @@
       </div>
     </div>
 
-  </div>
-<!-- بداية قسم التوقيع المطور والمتناسق -->
+  </div><!-- بداية قسم التوقيع المطور والمتناسق -->
 <div style="
     display: flex; 
     flex-direction: column; 
@@ -1051,7 +1050,7 @@
         overflow: hidden;
     ">
         <!-- استبدل الرابط في الأسفل برابط التضمين الخاص بك من جوجل فورمس مع الاحتفاظ بالـ src والدوال الأخرى -->
-        <iframe src="<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScLUdYF5EvbkbLv4x_k904jijHV8boK7R171ofluRuRiPqC1g/viewform?embedded=true" width="640" height="1021" frameborder="0" marginheight="0" marginwidth="0">جارٍ التحميل…</iframe>" 
+       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScLUdYF5EvbkbLv4x_k904jijHV8boK7R171ofluRuRiPqC1g/viewform?embedded=true" width="640" height="1021" frameborder="0" marginheight="0" marginwidth="0">جارٍ التحميل…</iframe>
                 width="100%" 
                 height="800" 
                 frameborder="0" 
@@ -1063,5 +1062,6 @@
     </div>
 </div>
 <!-- نهاية قسم التوقيع المطور -->
+ -->
 </body>
 </html>
