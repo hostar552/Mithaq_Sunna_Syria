@@ -1031,7 +1031,7 @@
       </div>
     </div>
 
-  </div> 
+  </div>
   <!-- بداية قسم زر التوقيع الأخضر بالخروج من الحاوية المغلقة -->
 <div style="
     text-align: center !important; 
@@ -1044,8 +1044,6 @@
     z-index: 99999 !important; /* لضمان ظهور الزر فوق أي عناصر أخرى */
 ">
     <h2 style="color: #333333; margin-bottom: 12px; font-size: 24px;">العنوان: الانضمام لقائمة الموقعين</h2>
-    <p style="color: #666666; margin-bottom: 30px; font-size: 16px;">يرجى الضغط على الزر أدناه لتسجيل اسمك الكامل ودعم الميثاق</p>
-    
     <!-- تأكد من وضع رابط استمارتك المباشر مكان العبارة أدناه -->
     <a href="https://forms.gle/SvDn2ESmcov7SX829" target="_blank" style="
         display: inline-block !important;
