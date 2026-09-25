@@ -1043,7 +1043,6 @@
     position: relative !important;
     z-index: 99999 !important; /* لضمان ظهور الزر فوق أي عناصر أخرى */
 ">
-    <h2 style="color: #333333; margin-bottom: 12px; font-size: 24px;">العنوان: الانضمام لقائمة الموقعين</h2>
     <!-- تأكد من وضع رابط استمارتك المباشر مكان العبارة أدناه -->
     <a href="https://forms.gle/SvDn2ESmcov7SX829" target="_blank" style="
         display: inline-block !important;
@@ -1054,7 +1053,7 @@
         background-color: #1b4d3e !important; /* الأخضر الغامق الملكي */
         border-radius: 30px !important;
         text-decoration: none !important;
-        box-shadow: 0 4px 15px rgba(27, 77, 62, 0.3) !important;
+        box-shadow: 0 4px 15px rgba(20, 70, 55, 0.3) !important;
         transition: all 0.3s ease !important;
     " onmouseover="this.style.backgroundColor='#12362b'; this.style.transform='translateY(-3px)';" onmouseout="this.style.backgroundColor='#1b4d3e'; this.style.transform='translateY(0)';">
         اضغط للانضمام لقائمة الموقعين
