@@ -1032,33 +1032,36 @@
     </div>
 
   </div>
-
-  <script>
-    function exportStandalonePDF() {
-      const element = document.getElementById('pdf-root');
-      
-      const options = {
-        margin:       0,
-        filename:     'ميثاق_الاصطفاف_السني_في_سورية_م_حسام_طرشة_PDF_رسمي.pdf',
-        image:        { type: 'jpeg', quality: 0.98 },
-        html2canvas:  { 
-          scale: 2,
-          useCORS: true, 
-          letterRendering: true,
-          scrollX: 0,
-          scrollY: 0
-        },
-        jsPDF:        { 
-          unit: 'mm', 
-          format: 'a4', 
-          orientation: 'portrait' 
-        },
-        pagebreak:    { mode: ['avoid-all', 'css', 'legacy'] }
-      };
-
-      html2pdf().set(options).from(element).save();
-    }
-  </script>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScLUdYF5EvbkbLv4x_k904jijHV8boK7R171ofluRuRiPqC1g/viewform?embedded=true" width="640" height="1021" frameborder="0" marginheight="0" marginwidth="0">جارٍ التحميل…</iframe>
+<!-- بداية قسم التوقيع المطور والمتناسق -->
+<div style="
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    margin: 50px auto; 
+    padding: 10px; 
+    box-sizing: border-box;
+">
+    <div style="
+        width: 100%; 
+        max-width: 760px; /* هذا العرض يضمن محاكاة عرض تصميم وثيقتك بالأعلى */
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* ظل خفيف ليعطيها بُعداً جميلاً */
+        border-radius: 10px; 
+        overflow: hidden;
+    ">
+        <!-- استبدل الرابط في الأسفل برابط التضمين الخاص بك من جوجل فورمس مع الاحتفاظ بالـ src والدوال الأخرى -->
+        <iframe src="https://docs.google.com/forms/d/1ufNgUxx5WXqBMFZ_NWQPmSWTBCZQQ3tYZ8nTk1xDF3Y/edit" 
+                width="100%" 
+                height="800" 
+                frameborder="0" 
+                marginheight="0" 
+                marginwidth="0" 
+                style="display: block; border: none;">
+                جاري التحميل…
+        </iframe>
+    </div>
+</div>
+<!-- نهاية قسم التوقيع المطور -->
 </body>
 </html>
